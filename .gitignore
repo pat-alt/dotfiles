@@ -5,4 +5,5 @@
 !.zshrc
 !.vimrc
 !README.md
-!.julia/config/startup.jl
+!/.julia/config/
+
