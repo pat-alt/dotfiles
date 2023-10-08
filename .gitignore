@@ -1,9 +1,10 @@
-# Ignore everything
+# Ignore everything:
 *
-# Except for these files
+
+# Except for these files:
 !.gitignore
+!LICENSE
+!README.md
 !.zshrc
 !.vimrc
-!README.md
-!/.julia/config/
-
+!.julia/config/
