@@ -13,7 +13,7 @@ git clone https://github.com/pat-alt/.cfg.git $HOME/.cfg
 Add the following alias:
 
 ```
-echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.bashrc
+echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.zshrc
 ```
 
 Finally, checkout the actual content:
