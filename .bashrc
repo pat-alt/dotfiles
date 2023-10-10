@@ -137,5 +137,5 @@ command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 # Quarto 
-export QUARTO_ROOT="$HOME/code/quarto-cli/package/dist/bin/quarto"
+export QUARTO_ROOT="$HOME/code/quarto-cli/package/dist"
 export PATH="$QUARTO_ROOT/bin:$PATH"
