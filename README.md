@@ -13,16 +13,10 @@ git clone https://github.com/pat-alt/dotfiles.git $HOME/dotfiles
 !!! warning ohmyzsh & ohmybash
     I work with [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh/wiki) and [ohmybash](https://github.com/ohmybash/oh-my-bash). The `.zshrc`  and `.bashrc` files in this repo therefore expect the following folders to exist, respectively: `$HOME/.oh-my-zsh` and `$HOME/.oh-my-bash`. 
 
-Add the following alias. For `zsh`:
+Add the following alias:
 
 ```
-echo "alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'" >> $HOME/.zshrc
-```
-
-For `bash`:
-
-```
-echo "alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'" >> $HOME/.bashrc
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 ```
 
 Finally, checkout the actual content:
