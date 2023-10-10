@@ -131,15 +131,11 @@ source "$OSH"/oh-my-bash.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-# Set personal aliases, overriding those provided by oh-my-bash libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-bash
-# users are encouraged to define aliases within the OSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias bashconfig="mate ~/.bashrc"
-# alias ohmybash="mate ~/.oh-my-bash"
-alias config='/usr/bin/git --git-dir=/Users/paltmeyer/dotfiles/ --work-tree=/Users/paltmeyer'
+# PYENV
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+# Quarto 
+export QUARTO_ROOT="$HOME/code/quarto-cli/package/dist/bin/quarto"
+export PATH="$QUARTO_ROOT/bin:$PATH"
