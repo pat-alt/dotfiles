@@ -10,8 +10,8 @@ If you want to use this setup, firstly clone this repo:
 git clone https://github.com/pat-alt/dotfiles.git $HOME/dotfiles
 ```
 
-!!! warning ohmyzsh & ohmybash
-    I work with [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh/wiki) and [ohmybash](https://github.com/ohmybash/oh-my-bash). The `.zshrc`  and `.bashrc` files in this repo therefore expect the following folders to exist, respectively: `$HOME/.oh-my-zsh` and `$HOME/.oh-my-bash`. 
+> **Note**
+I work with [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh/wiki) and [ohmybash](https://github.com/ohmybash/oh-my-bash). The `.zshrc`  and `.bashrc` files in this repo therefore expect the following folders to exist, respectively: `$HOME/.oh-my-zsh` and `$HOME/.oh-my-bash`. 
 
 Add the following alias:
 
