@@ -98,7 +98,7 @@ alias zshconfig="$EDITOR ~/.zshrc"
 alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
 alias home="cd ~/"
 alias codedir="cd ~/code"
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/.git/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/.git/ --work-tree=$HOME'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
