@@ -139,3 +139,4 @@ source "$OSH"/oh-my-bash.sh
 # Example aliases
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
+alias config='/usr/bin/git --git-dir=/Users/paltmeyer/dotfiles/ --work-tree=/Users/paltmeyer'
