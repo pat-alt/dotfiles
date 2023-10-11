@@ -1,0 +1,9 @@
+[credential]
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[user]
+	name = pat-alt
+	email = altmeyerpat@gmail.com
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[core]
+	excludesfile = /Users/paltmeyer/.gitignore

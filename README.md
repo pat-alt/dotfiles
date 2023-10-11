@@ -19,6 +19,12 @@ Add the following alias:
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/.git --work-tree=$HOME'
 ```
 
+Avoid showing untracked files:
+
+```
+config config --local status.showUntrackedFiles no
+```
+
 Finally, checkout the actual content:
 
 ```
@@ -27,6 +33,10 @@ config checkout
 
 > **Note**
 You may also have to run `config restore .` which will overwrite existing files (caution!).
+
+### Commiting Changes
+
+There are files and folders in your `$HOME` directory that you do not want to track. To not show these upon `config status`, we used a local config command above. To avoid accidentally adding them, do not use the `config add .` command and run `config add -u .` instead.
 
 ### Local Setup
 
