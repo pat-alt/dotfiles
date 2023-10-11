@@ -6,6 +6,7 @@ if test -f "$LOCAL_SETUP"; then
 else
     HELLO_MSG="hello world, I am $USER"
     echo "alias hello_world='echo $HELLO_MSG'" >> LOCAL_SETUP
+    source $LOCAL_SETUP
 fi
 
 # If you come from bash you might have to change your $PATH.
