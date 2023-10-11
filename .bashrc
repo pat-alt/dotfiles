@@ -4,8 +4,8 @@ export LOCAL_SETUP="$HOME/local.sh"
 if test -f "$LOCAL_SETUP"; then
     source $LOCAL_SETUP
 else
-    MSG = "hello world, I am $USER"
-    echo "alias hello_world='echo $MSG'" >> LOCAL_SETUP
+    export HELLO_MSG = "hello world, I am $USER"
+    echo "alias hello_world='echo $HELLO_MSG'" >> LOCAL_SETUP
 fi
 
 # Enable the subsequent settings only in interactive sessions
@@ -15,7 +15,7 @@ case $- in
 esac
 
 # Path to your oh-my-bash installation.
-export OSH='/Users/paltmeyer/.oh-my-bash'
+export OSH='$HOME/.oh-my-bash'
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.

@@ -4,8 +4,8 @@ export LOCAL_SETUP="$HOME/local.sh"
 if test -f "$LOCAL_SETUP"; then
     source $LOCAL_SETUP
 else
-    MSG = "hello world, I am $USER"
-    echo "alias hello_world='echo $MSG'" >> LOCAL_SETUP
+    export HELLO_MSG = "hello world, I am $USER"
+    echo "alias hello_world='echo $HELLO_MSG'" >> LOCAL_SETUP
 fi
 
 # If you come from bash you might have to change your $PATH.
