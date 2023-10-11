@@ -102,15 +102,6 @@ fi
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# >>> juliaup initialize >>>
-
-# !! Contents within this block are managed by juliaup !!
-
-path=('/Users/paltmeyer/.juliaup/bin' $path)
-export PATH
-
-# <<< juliaup initialize <<<
-
 # PYENV
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
