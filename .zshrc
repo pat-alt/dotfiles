@@ -4,7 +4,7 @@ export LOCAL_SETUP="$HOME/local.sh"
 if test -f "$LOCAL_SETUP"; then
     source $LOCAL_SETUP
 else
-    export HELLO_MSG = "hello world, I am $USER"
+    HELLO_MSG="hello world, I am $USER"
     echo "alias hello_world='echo $HELLO_MSG'" >> LOCAL_SETUP
 fi
 
