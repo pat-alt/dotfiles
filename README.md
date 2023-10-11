@@ -33,5 +33,5 @@ You may also have to run `config restore .` which will overwrite existing files 
 In some cases, you may want to use local configurations that only apply to the local system and should not be shared across platforms. To specify such configurations, use the `$HOME/local.sh` file. If this file does not exist, it will automatically be created the first time `.zshrc` or `.bashrc` are sourced. The file is not (and should not be) tracked by git. To quickly add aliases to the local config file proceed as follows:
 
 ```
-echo "alias codedir='cd ~/code'" >> LOCAL_SETUP
+echo "alias codedir='cd ~/code'" >> $LOCAL_SETUP
 ```
