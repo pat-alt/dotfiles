@@ -16,7 +16,7 @@ I work with [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh/wiki) and [ohmybash](ht
 Add the following alias:
 
 ```
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/.git --work-tree=$HOME'
 ```
 
 Finally, checkout the actual content:
