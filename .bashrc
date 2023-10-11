@@ -103,6 +103,7 @@ completions=(
 # Add wisely, as too many aliases slow down shell startup.
 aliases=(
   general
+  custom
 )
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-bash/plugins/*)
