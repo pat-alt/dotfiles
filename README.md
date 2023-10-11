@@ -24,3 +24,6 @@ Finally, checkout the actual content:
 ```
 config checkout
 ```
+
+> **Note**
+You may also have to run `config restore` which will overwrite existing files (caution!).
