@@ -26,4 +26,8 @@ config checkout
 ```
 
 > **Note**
-You may also have to run `config restore` which will overwrite existing files (caution!).
+You may also have to run `config restore .` which will overwrite existing files (caution!).
+
+### Local Setup
+
+In some cases, you may want to use local configurations that only apply to the local system and should not be shared across platforms. To specify such configurations, use the `$HOME/local.sh` file. If this file does not exist, it will automatically be created the first time `.zshrc` or `.bashrc` are sourced. 

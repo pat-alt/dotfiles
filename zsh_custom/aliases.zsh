@@ -7,6 +7,5 @@
 alias zshconfig="$EDITOR ~/.zshrc"
 alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
 alias home="cd ~/"
-alias codedir="cd ~/code"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/.git/ --work-tree=$HOME'
 alias restart='exec "$SHELL"'

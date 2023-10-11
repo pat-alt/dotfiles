@@ -1,3 +1,13 @@
+# Local setup: anything that you do not want to be shared across systems
+# goes into $HOME/local.sh:
+export LOCAL_SETUP="$HOME/local.sh"
+if test -f "$LOCAL_SETUP"; then
+    source $LOCAL_SETUP
+else
+    MSG = "hello world, I am $USER"
+    echo "alias hello_world='echo $MSG'" >> LOCAL_SETUP
+fi
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
